@@ -42,4 +42,9 @@ extension CompositionalLayoutViewController: UICollectionViewDataSource {
         return 3
     }
     
+    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        let badgeView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: Badge.identifier, for: indexPath)
+        return badgeView
+    }
+    
 }
