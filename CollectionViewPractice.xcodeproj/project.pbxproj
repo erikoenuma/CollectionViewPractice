@@ -19,8 +19,6 @@
 		34EE30E6265FE45C006306B8 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34EE30E5265FE45C006306B8 /* Cell.xib */; };
 		34EE30E8265FE495006306B8 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EE30E7265FE495006306B8 /* Cell.swift */; };
 		34EE30EE26626DB6006306B8 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EE30ED26626DB6006306B8 /* Badge.swift */; };
-		34EE30F026628AE4006306B8 /* BadgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EE30EF26628AE2006306B8 /* BadgeViewController.swift */; };
-		34EE30F426628B4F006306B8 /* BadgeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34EE30F326628B4F006306B8 /* BadgeView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +57,6 @@
 		34EE30E5265FE45C006306B8 /* Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
 		34EE30E7265FE495006306B8 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		34EE30ED26626DB6006306B8 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
-		34EE30EF26628AE2006306B8 /* BadgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeViewController.swift; sourceTree = "<group>"; };
-		34EE30F326628B4F006306B8 /* BadgeView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BadgeView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,7 +149,6 @@
 			isa = PBXGroup;
 			children = (
 				34EE30E1265FDEBA006306B8 /* CompositionalLayoutViewController.swift */,
-				34EE30EF26628AE2006306B8 /* BadgeViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -162,7 +157,6 @@
 			isa = PBXGroup;
 			children = (
 				34EE30DF265FDEA9006306B8 /* CompositionalLayoutView.storyboard */,
-				34EE30F326628B4F006306B8 /* BadgeView.storyboard */,
 				34EE30E926626C85006306B8 /* Cell */,
 				34EE30EA26626C97006306B8 /* Badge */,
 			);
@@ -300,7 +294,6 @@
 				34EE30B6265FDE26006306B8 /* LaunchScreen.storyboard in Resources */,
 				34EE30E6265FE45C006306B8 /* Cell.xib in Resources */,
 				34EE30E0265FDEA9006306B8 /* CompositionalLayoutView.storyboard in Resources */,
-				34EE30F426628B4F006306B8 /* BadgeView.storyboard in Resources */,
 				34EE30B3265FDE26006306B8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,7 +322,6 @@
 				34EE30E2265FDEBA006306B8 /* CompositionalLayoutViewController.swift in Sources */,
 				34EE30EE26626DB6006306B8 /* Badge.swift in Sources */,
 				34EE30E4265FDF8E006306B8 /* Layout.swift in Sources */,
-				34EE30F026628AE4006306B8 /* BadgeViewController.swift in Sources */,
 				34EE30E8265FE495006306B8 /* Cell.swift in Sources */,
 				34EE30DB265FDE63006306B8 /* Router.swift in Sources */,
 				34EE30AA265FDE1F006306B8 /* AppDelegate.swift in Sources */,
